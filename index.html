@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Інтернет магазин</title>
+</head>
+<body>
+<h1>Зареєструйтесь для входу, будь ласка</h1>
+<form action="/signup" method="POST">
+    <p>
+        <label>Стать</label>
+        <label>
+            <input type="radio" name="title" value="mr">
+            Чоловіча
+        </label>
+        <label>
+            <input type="radio" name="title" value="mrs">
+            Жіноча
+        </label>
+    </p>
+    <p>
+        <label>Ім'я</label>
+        <input type="text" name="first_name">
+    </p>
+    <p>
+        <label>Прізвище</label>
+        <input type="text" name="last_name">
+    </p>
+    <p>
+        <label>Email</label>
+        <input type="email" name="email">
+    </p>
+    <p>
+        <label>Телефон</label>
+        <input type="tel" name="phone">
+    </p>
+    <p>
+        <label>Пароль</label>
+        <input type="password" name="password">
+    </p>
+    <p>
+        <label>Підтвердіть пароль</label>
+        <input type="password" name="password_confirm">
+    </p>
+    <p>
+        <label>Країна</label>
+        <select name="country">
+            <option>Канада</option>
+            <option>Франція</option>
+            <option>Німеччина</option>
+            <option>Італія</option>
+            <option>Японія</option>
+            <option>Україна</option>
+            <option>Великобританія</option>
+            <option>США</option>
+        </select>
+    </p>
+    <p>
+        <label>
+            <input type="checkbox" name="terms">
+            Я погоджуюсь з умовами <a href="terms.html">користування сайтом</a>
+        </label>
+    </p>
+    <p>Для детальної інформації натисність <a href="subject_area.html">сюди</a></p>
+    <p>
+
+        <button>
+            <a href="products.html">  Зареєструватись</a>
+        </button>
+
+    </p>
+</form>
+</body>
+</html>
