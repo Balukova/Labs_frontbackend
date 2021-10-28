@@ -1,0 +1,48 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: square;
+    color: navy;
+}
+
+body{
+    background-color: #CDC0B0;
+    padding: 5%;
+}
+
+h1 {
+    background-color: RGB(249, 201, 16);
+    margin-top: 5%;
+}
+
+#my_id { color: blue; }
+
+.incut {
+    float: left;
+    width: 110px;
+    background: #fc0;
+    padding: 5px;
+    margin: 5px 10px 5px 0;
+    border: 1px solid #333;
+ }
+
+Q {
+    font-style: italic;
+    quotes: "\00AB" "\00BB";
+}
+Q[title] {
+    color: maroon;
+}
+
+b + i {
+    color: red;
+}
+
+DIV I {
+    color: green;
+}
+ P > I {
+    color: dodgerblue;
+}
