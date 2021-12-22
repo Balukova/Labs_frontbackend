@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+
+<body>
+    <FORM><INPUT TYPE=button VALUE="Кнопка" onClick="alert('Ви нажали кнопку');"></FORM>
+    <FORM><INPUT TYPE=text SIZE="&{l()};" VALUE="&{window.location.href};">
+        <a HREF="JavaScript:alert('Увага!!!');">Клік</a>
+    </FORM>
+    <script>
+        document.write('<H1>Лабораторна</H1>');
+        function l() {
+            str = window.location.href; return (str.length);
+        }
+
+
+        var a = new Array();
+        var count = prompt('Введіть розмірність масиву');
+        for (var i = 0; i < count; i++) {
+            a[i] = parseInt(prompt("Введіть число масиву:", ""));
+            if (i % 2 == 0) {
+                console.log('max element: ' + Math.max(...a));
+            }
+            if (i % 2 != 0) {
+                console.log('min element: ' + Math.min(...a));
+            }
+        }
+        console.log("Масив: " + a.join(", "));
+
+        console.log('max element: '+ Math.max(...a));
+        console.log('min element: '+ Math.min(...a));
+
+        // sorted
+        var _testObj = {
+            numStorage: a,
+
+            getSort: function (data) {
+                var i, j;
+                for (i = 1; i < data.length; i++) {
+                    over = data[i];
+
+                    for (j = i - 1; j >= 0 && data[j] > over; j--) {
+                        data[j + 1] = data[j];
+                    }
+                    data[j + 1] = over;
+                }
+                return data;
+            }
+        };
+
+        console.log('sorted mass: ' + _testObj.getSort(_testObj.numStorage));
+    </script>
+</body>
+
+</html>

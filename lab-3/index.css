@@ -1,0 +1,50 @@
+body {
+    background: #222629; /* Цвет фона */
+    color: whitesmoke; /* Цвет текста */
+}
+
+header{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+header p{
+    background-color: #474b4f;
+    padding: 10px;
+}
+.content{
+    margin: 30px auto;
+    width: 90%;
+    display: flex;
+}
+.content-block{
+    flex: 3;
+}
+.news{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #86c232
+}
+.news h2,p{
+    border-bottom: 1px solid #6b6e70;
+}
+.search input{
+    display: flex;
+    width: 100%;
+    background-color: #6b6e70;
+    height: 30px;
+    color: #86c232;
+}
+table{
+    width: 100%;
+    margin: 30px auto;
+    background-color: #61892f;
+}
+td{
+    text-align: center;
+    border: 1px solid rgb(99, 99, 99);
+    height: 50px;
+}

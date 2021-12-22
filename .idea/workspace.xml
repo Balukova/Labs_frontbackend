@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60fc5572-0839-4b1f-b84a-b35560ce3623" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terms.html" beforeDir="false" afterPath="$PROJECT_DIR$/terms.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +25,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Report_frontbackend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ПРОСКУРА/lab-3" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,6 +53,12 @@
       <workItem from="1634920020932" duration="6592000" />
       <workItem from="1635282956957" duration="327000" />
       <workItem from="1635283668515" duration="7402000" />
+      <workItem from="1635427103990" duration="8000" />
+      <workItem from="1640021860559" duration="624000" />
+      <workItem from="1640115490323" duration="617000" />
+      <workItem from="1640172920425" duration="897000" />
+      <workItem from="1640176879679" duration="28000" />
+      <workItem from="1640180764334" duration="80000" />
     </task>
     <servers />
   </component>
